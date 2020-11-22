@@ -1,0 +1,162 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.page{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.page-header-light{
+    border-bottom: 2px solid rgb(34, 68, 180);
+    
+}
+
+.page-title-light{
+    text-align: center;
+}
+
+.page-lists-light{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.nav-wrapper-light{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gage-links-light{
+    padding: 20px;
+    color: #000;
+    transition: 0.5s all;
+   
+}
+
+.gage-links-light:hover{
+
+    background: rgb(209, 209, 209);
+    transition: 0.5s all;
+}
+
+.page-input-light{
+    width: 40%;
+    height: 30px;
+    border: 2px solid rgb(34, 68, 180);
+    background: rgb(224, 228, 227);
+}
+
+.theme-button{
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.page-section-light{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(34, 68, 180);
+    padding-bottom: 20px;
+}
+
+
+.page-wrapper-block-left-light{
+    width: 80%;
+}
+
+.page-lists-light-two{
+    margin-top: 20px;
+}
+
+.page-footer-light{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*...................................
+.....................................
+..................................... 
+                dark-theme 
+.....................................
+.....................................
+.....................................
+*/
+
+.dark-theme{
+    color: white;
+    background-color: black;
+    padding: 20px 90px 145px 90px;
+    
+}
+
+.dark-theme a{
+    color: white;
+}
+
+.dark-theme .page-header-light{
+    border-bottom: 2px solid rgb(26, 235, 235);
+
+}
+
+
+
+.dark-theme .gage-links-light{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s all;
+   
+}
+
+.dark-theme .gage-links-light:hover{
+
+    background: rgb(255, 255, 255);
+    transition: 0.5s all;
+    color:black;
+}
+
+.dark-theme .page-input-light{
+    width: 40%;
+    height: 30px;
+    border: 2px solid rgb(51, 210, 221);
+    background: rgb(34, 36, 35);
+    color: #fff;
+}
+
+.dark-theme .theme-button{
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.dark-theme .page-section-light{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(52, 152, 182);
+    padding-bottom: 20px;
+}
+
+
+.dark-theme .page-wrapper-block-left-light{
+    width: 80%;
+}
+
+.dark-theme .page-lists-light-two{
+    margin-top: 20px;
+}
+
+.dark-theme .page-footer-light{
+    display: flex;
+    justify-content: space-between;
+}
